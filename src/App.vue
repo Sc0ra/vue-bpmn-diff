@@ -1,10 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" class="m-auto" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite"></HelloWorld>
+  <BpmnViewer url="/diagram.bpmn" class="h-screen"></BpmnViewer>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import BpmnViewer from "./components/BpmnViewer.vue";
 </script>
 
 <style lang="postcss">
@@ -14,6 +13,5 @@ import HelloWorld from "./components/HelloWorld.vue";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
